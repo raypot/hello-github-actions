@@ -1,17 +1,17 @@
 name: "Hello Action"
-desription: "Greet someone"
+description: "Greet someone"
 author: "raypot.salute@gmail.com"
 
 inputs:
   MY_NAME: 
-    desription: "Who to greet"
+    description: "Who to greet"
     required: true
     default: "Unknown"
   
-  runs:
-    using: "docker"
-    image: "Dockerfile"
+runs:
+  using: "docker"
+  image: "Dockerfile"
 
-  branding:
-    icon: "mic"
-    color: "purple"
+branding:
+  icon: "mic"
+  color: "purple"
